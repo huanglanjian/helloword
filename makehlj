@@ -1,0 +1,6 @@
+hlj:hlj.o
+	cc hlj.o -o hlj
+hlj.o:hlj.c
+	cc -c hlj.c -o hlj.o
+clean:
+	rm hlj.o
